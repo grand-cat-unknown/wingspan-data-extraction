@@ -137,7 +137,7 @@ def extract_tables_with_llm(
     return result
 
 
-def extract_tables_from_images(data_dir="wingspan_data_rotated"):
+def extract_tables_from_images(data_dir="images"):
     png_files = glob.glob(os.path.join(data_dir, "*.png"))
     output_dir = data_dir + "_output"
 
